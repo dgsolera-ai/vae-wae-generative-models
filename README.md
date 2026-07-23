@@ -180,14 +180,16 @@ Encoder difference: the **VAE encoder** outputs `μ` and `log σ²` for the repa
 
 ```
 .
-├── 2d.ipynb                 # VAE & WAE on MNIST / FashionMNIST / CIFAR-10 (PyTorch)
-├── rnap_3d.ipynb            # VAE & WAE on 3D-MNIST voxels (TensorFlow)
-├── rnap_3D_ModelNet.ipynb   # VAE & WAE on ModelNet10 4-class voxels (TensorFlow)
-├── memoria_practica.pdf     # Full written report (Spanish), 50 pp.
-└── assets/                  # Figures used in this README
+├── notebooks/
+│   ├── 2d.ipynb                 # VAE & WAE on MNIST / FashionMNIST / CIFAR-10 (PyTorch)
+│   ├── rnap_3d.ipynb            # VAE & WAE on 3D-MNIST voxels (TensorFlow)
+│   └── rnap_3D_ModelNet.ipynb   # VAE & WAE on ModelNet10 4-class voxels (TensorFlow)
+├── report.pdf                   # Full written report (Spanish), 50 pp.
+├── requirements.txt
+└── assets/                      # Figures used in this README
 ```
 
-> **Note on the notebooks:** these are the original course notebooks, kept as-is (training logs and warnings included). They contain a couple of duplicated helper cells and were re-run interactively, so they don't all carry a clean top-to-bottom execution order. The written report (`memoria_practica.pdf`) is the polished narrative with every figure and table; the notebooks are the working evidence behind it.
+> **Note on the notebooks:** these are the original course notebooks, kept as-is (training logs and warnings included). They contain a couple of duplicated helper cells and were re-run interactively, so they don't all carry a clean top-to-bottom execution order. The written report (`report.pdf`) is the polished narrative with every figure and table; the notebooks are the working evidence behind it.
 
 ## Data
 
