@@ -1,0 +1,7 @@
+archive/
+*.h5
+*.npy
+*.pth
+*.keras
+__pycache__/
+.ipynb_checkpoints/
