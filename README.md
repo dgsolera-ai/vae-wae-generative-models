@@ -9,7 +9,7 @@
 
 ---
 
-## TL;DR
+## TL;DR 
 
 We implemented and compared two latent-variable generative models — a classic **Variational Autoencoder (VAE)** trained with the **KL divergence**, and a **Wasserstein Autoencoder (WAE)** trained with **Maximum Mean Discrepancy (MMD)** — across **four datasets** spanning two very different domains:
 
